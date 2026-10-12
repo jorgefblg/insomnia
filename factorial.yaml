@@ -8,11 +8,11 @@ meta:
   description: ""
 collection:
   - url: https://api.factorialhr.com/api/2026-10-01/resources/employees/employees
-    name: New Request
+    name: Get Employees
     meta:
       id: req_6fda9f11a7e74f55a8ebccb0b96ae7c8
       created: 1791835595925
-      modified: 1791835659403
+      modified: 1791835773593
       isPrivate: false
       description: ""
       sortKey: -1791835595926
