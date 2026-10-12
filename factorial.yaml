@@ -1,0 +1,45 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Factorial
+meta:
+  id: wrk_23f7ef95f61d44f4b26ab9b5ca0e1133
+  created: 1791835553358
+  modified: 1791835553358
+  description: ""
+collection:
+  - url: https://api.factorialhr.com/api/2026-10-01/resources/employees/employees
+    name: New Request
+    meta:
+      id: req_6fda9f11a7e74f55a8ebccb0b96ae7c8
+      created: 1791835595925
+      modified: 1791835659403
+      isPrivate: false
+      description: ""
+      sortKey: -1791835595926
+    method: GET
+    headers:
+      - name: x-api-key
+        value: eyJraWQiOiJmYWN0b3JpYWwtaWQiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3OTA4MTAyMjgsImV4cCI6MjEwNjQyOTQyOCwianRpIjoiODY0NTE3ZGMtZTEwNC00MjVhLWExMGQtMjA1MmY0OTc0MzQ4IiwiY2VsbCI6ImF3cy1wcm9kLWV1Y2VudHJhbDEtZ2xvYjAxIiwiY29tcGFueV9pZCI6MzYwMTc0fQ.moLXdQsZ4dHjrAQQoY03SlbVd_BSXf-iodCICBe0Fh3CnEI3Xwknq3-gwvYecJIC_2YvR_0wZCgObemUYjD54A
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_2cf0440b680381fc188d5925a311b060711ab085
+    created: 1791835553361
+    modified: 1791835553361
+environments:
+  name: Base Environment
+  meta:
+    id: env_2cf0440b680381fc188d5925a311b060711ab085
+    created: 1791835553360
+    modified: 1791835553360
+    isPrivate: false
